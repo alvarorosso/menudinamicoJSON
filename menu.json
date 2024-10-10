@@ -1,0 +1,25 @@
+{
+    "menu": [
+      {
+        "id": 1,
+        "nombre": "Inventario",
+        "enlace": "/inicio"
+      },
+      {
+        "id": 2,
+        "nombre": "Requisicion",
+        "enlace": "/sobre-nosotros"
+      },
+      {
+        "id": 3,
+        "nombre": "Despachos",
+        "enlace": "/servicios"
+      },
+      {
+        "id": 4,
+        "nombre": "Cotizaciones",
+        "enlace": "/contacto"
+      }
+    ]
+  }
+  

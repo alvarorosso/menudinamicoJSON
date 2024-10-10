@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Dinámico Moderno</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Gestión del Menú</h1>
+
+    <!-- Formulario de gestión de menú -->
+    <form id="menuForm">
+        <label for="menuSelect">Seleccionar Opción del Menú:</label>
+        <select id="menuSelect"></select>
+
+        <label for="nombre">Nombre de la Opción:</label>
+        <input type="text" id="nombre" placeholder="Nombre del menú" required>
+
+        <label for="enlace">Enlace de la Opción:</label>
+        <input type="text" id="enlace" placeholder="URL del menú" required>
+
+        <input type="hidden" id="id"> <!-- Campo oculto para el ID -->
+
+        <div>
+            <button type="button" id="insertarBtn">Insertar Opción</button>
+            <button type="button" id="modificarBtn" disabled>Modificar Opción</button>
+            <button type="button" id="eliminarBtn" disabled>Eliminar Opción</button>
+            <button type="submit" id="guardarBtn" disabled>Guardar Cambios</button>
+        </div>
+    </form>
+
+    <!-- Menú renderizado dinámicamente -->
+    <div id="menu"></div>
+</div>
+
+<footer>
+    <p>Desarrollado por Alvaro Rosso</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
